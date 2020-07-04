@@ -1,2 +1,2 @@
 # QR-Authenticator-App-Website-
-This is a website for the qr authenticator app
+This is a website for the QR Authenticator app
