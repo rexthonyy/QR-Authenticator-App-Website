@@ -55,7 +55,7 @@ a.active,a:hover{
 
 @media (max-width: 952px){
 	label.logo{
-		font-size: 30px;
+		font-size: 24px;
 		padding-left: 50px;
 	}
 
@@ -76,10 +76,12 @@ a.active,a:hover{
 		left: -100%;
 		text-align: center;
 		transition: all .5s;
+		overflow: scroll;
 	}
 	nav ul li{
 		display: block;
-		margin: 50px;
+		margin: 50px 0;
+		line-height: 30px;
 	}
 	nav ul li a{
 		font-size: 20px;
@@ -96,5 +98,5 @@ section{
 	/*background: url(images/app_icon.png) no-repeat;
 	background-size: cover;
 	height: calc(100vh - 80px);*/
-	background-color: rgb(100, 100, 240);
+	background-color: red;
 }
