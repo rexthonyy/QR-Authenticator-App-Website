@@ -10,6 +10,7 @@ body{
 	font-size: small;
 }
 nav{
+	position: fixed;
 	background: #0082e6;
 	width: 100%;
 	height: 90px;
@@ -61,7 +62,55 @@ nav ul li a.active,nav ul li a:hover{
 #check{
 	display: none;
 }
+/*The body*/
+section{
+	padding-top: 155px;
+}
+#wideIntroScreen{
+	display: block;
+}
+#smallIntroScreen{
+	display: none;
+}
+#top{
+	width: 800px;
+	margin: auto;
+}
+#left{
+	width: 60%;
+	padding: 125px 30px 0px 10px;
+	/*border: 1px solid red;*/
+}
+#left h1{
+	font-weight: lighter;
+	font-size: 2.5em;
+	line-height: 1.5em;
+}
+#left p{
+	font-size: 1.1em;
+	margin-top: 20px;
+	line-height: 1.5em;
+	color: #868686;
+}
+#left img{
+	width: 200px;
+	height: 77px;
+	margin-top: 20px;
+	margin-left: -10px;
+	cursor: pointer;
+}
 
+#right{
+	width: 40%;
+	float: right;
+	text-align: center;
+	/*border: 1px solid black;*/
+}
+#right img{
+	width: 100%;
+	height: 600px;
+	/*border: 1px solid pink;*/
+}
 @media (max-width: 1100px){
 	label.logo{
 		margin-left: 40px;
@@ -99,8 +148,55 @@ nav ul li a.active,nav ul li a:hover{
 		border-radius: 13px;
 		text-transform: uppercase;
 	}
+	section{
+		padding-top: 145px;
+	}
+	#top{
+		width: 660px;
+		margin: auto;
+	}
+	#left{
+		width: 50%;
+		padding: 90px 15px 0px 5px;
+		/*border: 1px solid red;*/
+	}
+	#left h1{
+		font-weight: lighter;
+		font-size: 2.3em;
+		line-height: 1.4em;
+	}
+	#left p{
+		font-size: 1.1em;
+		margin-top: 20px;
+		line-height: 1.5em;
+		color: #868686;
+	}
+	#left img{
+		width: 200px;
+		height: 77px;
+		margin-top: 20px;
+		margin-left: -10px;
+		cursor: pointer;
+	}
+	#right{
+		width: 50%;
+		float: right;
+		text-align: center;
+		/*border: 1px solid black;*/
+	}
+	#right img{
+		width: 85%;
+		height: 500px;
+		/*border: 1px solid pink;*/
+	}
 }
 @media (max-width: 758px){
+	nav{
+		position: absolute;
+	}
+	label.logo{
+		display: none;
+	}
 	#check{
 		display: none;
 	}
@@ -136,5 +232,45 @@ nav ul li a.active,nav ul li a:hover{
 	}
 	#check:checked ~ ul{
 		left: 0;
+	}
+
+	/*the body*/
+	section{
+		padding-top: 80px;
+	}
+	#wideIntroScreen{
+		display: none;
+	}
+	#smallIntroScreen{
+		display: block;
+		text-align: center;
+		background-color: #0082e6;
+		padding: 0px 40px;
+	}
+	#smallIntroScreen span img{
+		width: 90px;
+		height: 90px;
+	}
+	#smallIntroScreen h1{
+		color: white;
+		font-size: 1.6em;
+		line-height: 1.4em;
+		font-weight: lighter;
+		margin-top: 10px;
+	}
+	#smallIntroScreen p{
+		color: white;
+		font-size: 1em;
+		line-height: 1.8em;
+		margin-top: 20px;
+	}
+	#smallIntroScreen a img{
+		width: 200px;
+		height: 77px;
+		margin-top: 40px;
+		cursor: pointer;
+	}
+	#smallIntroScreen img{
+		margin-top: 40px;
 	}
 }
