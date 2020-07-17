@@ -111,51 +111,60 @@ section{
 	height: 600px;
 	/*border: 1px solid pink;*/
 }
-#descriptionSection{
+#wideDescSection{
+	display: block;
 	clear: right;
 	padding-top: 80px;
 }
-#appDescriptionSection{
-	width: 48.8%;
-	float: left;
+#smallDescSection{
+	display: none;
+}
+#wideDescSection table{
+	width: 100%;
+}
+#leftColumn{
 	background-color: #a0c3ff;
-	padding: 80px 40px 0px 40px;
+	border-right: 7px solid white;
+}
+#leftColumn div{
+	padding: 70px 60px 0px 60px;
 	color: black;
 	text-align: center;
 }
-#appDescriptionSection h1{
+#leftColumn div h1{
 	font-weight: lighter;
 	font-size: 2.0em;
 	line-height: 1.3em;
 }
-#appDescriptionSection p{
+#leftColumn div p{
 	margin: 20px 0px 60px 0px;
 	font-size: 1em;
 	line-height: 1.6em;
 }
-#appDescriptionSection p a{
+#leftColumn div p a{
 	color: #0082e6;
 }
-#encryptionDescriptionSection{
-	width: 48.8%;
-	float: right;
+#rightColumn{
 	background-color: #c3d9ff;
-	padding: 80px 40px 80px 40px;
+	border-left: 7px solid white;
+}
+#rightColumn div{
+	padding: 70px 60px 0px 60px;
 	color: black;
 	text-align: center;
 }
-#encryptionDescriptionSection h2{
+#rightColumn div h2{
 	font-weight: lighter;
 	font-size: 1.0em;
 	color: #616161;
 }
-#encryptionDescriptionSection h1{
+#rightColumn div h1{
 	font-weight: lighter;
 	font-size: 2.0em;
 	line-height: 1.3em;
 	margin-top: 10px;
 }
-#encryptionDescriptionSection p{
+#rightColumn div p{
 	margin: 20px 0px 25px 0px;
 	font-size: 1em;
 	line-height: 1.6em;
@@ -322,7 +331,10 @@ section{
 	#smallIntroSection img{
 		margin-top: 40px;
 	}
-	#descriptionSection{
-		padding-top: 0px;
+	#wideDescSection{
+		display: none;
+	}
+	#smallDescSection{
+		display: block;
 	}
 }
