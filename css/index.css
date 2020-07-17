@@ -1,69 +1,4 @@
-*{
-	padding: 0;
-	margin: 0;
-	text-decoration: none;
-	list-style: none;
-	box-sizing: border-box;
-}
-body{
-	font-family: Verdana, Geneva, Arial, sans-serif;
-	font-size: small;
-}
-nav{
-	position: fixed;
-	background: #0082e6;
-	width: 100%;
-	height: 90px;
-}
-label.logo{
-	color: white;
-	font-size: 1.6em;
-	line-height: 90px;
-	margin-left: 90px;
-}
-label a img{
-	width: 53px;
-	height: 53px;
-	vertical-align: middle;
-	margin-right: -5px;
-}
-label a:link, label a:visited, label a:hover{
-	color: white;
-}
-nav ul{
-	float: right;
-	margin-right: 80px;
-}
-nav ul li{
-	display: inline;
-	line-height: 90px;
-	margin: 0 20px;
-}
-nav ul li a{
-	color: white;
-	font-size: 1em;
-	padding: 7px 13px;
-	border-radius: 20px;
-	text-transform: uppercase;
-}
-nav ul li a.active,nav ul li a:hover{
-	background: #1b9bff;
-	transition: .5s;
-}
-.checkbtn{
-	font-size: 25px;
-	color: white;
-	float: right;
-	margin-right: 20px;
-	cursor: pointer;
-	display: none;
-	padding: 8px;
-}
-#check{
-	display: none;
-}
-/*The body*/
-section{
+section#body{
 	padding-top: 155px;
 }
 #wideIntroSection{
@@ -99,7 +34,6 @@ section{
 	margin-left: -10px;
 	cursor: pointer;
 }
-
 #right{
 	width: 40%;
 	float: right;
@@ -123,6 +57,7 @@ section{
 	width: 100%;
 }
 #leftColumn{
+	width: 50%;
 	background-color: #a0c3ff;
 	border-right: 7px solid white;
 }
@@ -145,6 +80,7 @@ section{
 	color: #0082e6;
 }
 #rightColumn{
+	width: 50%;
 	background-color: #c3d9ff;
 	border-left: 7px solid white;
 }
@@ -169,43 +105,25 @@ section{
 	font-size: 1em;
 	line-height: 1.6em;
 }
-@media (max-width: 1100px){
-	label.logo{
-		margin-left: 40px;
-	}
-	nav ul{
-		float: right;
-		margin-right: 40px;
-	}
-	nav ul li{
-		display: inline;
-		line-height: 90px;
-		margin: 0 10px;
-	}
-
+#exploreFeaturesSection{
+	margin: 70px 0px 70px 0px;
+	text-align: center;
 }
+#exploreFeaturesSection button{
+	padding: 20px 40px;
+	border: 2px solid #0082e6;
+	font-size: 2.0em;
+	color: #0082e6;
+	background-color: transparent;
+	border-radius: 40px;
+}
+#exploreFeaturesSection button:hover{
+	border: 2px solid #81e8ee;
+	color: #81e8ee;
+	cursor: pointer;
+}
+
 @media (max-width: 1000px){
-	nav{
-		height: 80px;
-	}
-	label.logo{
-		font-size: 1.6em;
-		line-height: 78px;
-		margin-left: 20px;
-	}
-	nav ul{
-		margin-right: 10px;
-	}
-	nav ul li{
-		line-height: 74px;
-		margin: 0 2px;
-	}
-	nav ul li a{
-		font-size: 1em;
-		padding: 4px 10px;
-		border-radius: 13px;
-		text-transform: uppercase;
-	}
 	section{
 		padding-top: 145px;
 	}
@@ -249,49 +167,6 @@ section{
 	}
 }
 @media (max-width: 758px){
-	nav{
-		position: absolute;
-	}
-	label.logo{
-		display: none;
-	}
-	#check{
-		display: none;
-	}
-	.checkbtn{
-		display: block;
-		margin-top: 16px;
-	}
-	nav ul li{
-		display: block;
-		margin: 30px 0;
-		line-height: 40px;
-	}
-	nav ul li a{
-		font-size: 20px;
-		padding: 15px 50px;
-		border-radius: 30px;
-	}
-	nav ul{
-		position: fixed;
-		width: 100%;
-		height: 100vh;
-		padding-bottom: 70px; 
-		background: #2c3e50;
-		top: 80px;
-		left: -100%;
-		text-align: center;
-		transition: all .5s;
-		overflow: auto;
-	}
-	nav ul li a:hover,nav ul li a.active{
-		background: none;
-		color:#0082e6;
-	}
-	#check:checked ~ ul{
-		left: 0;
-	}
-
 	/*the body*/
 	section{
 		padding-top: 80px;
@@ -336,5 +211,49 @@ section{
 	}
 	#smallDescSection{
 		display: block;
+	}
+	#smallDescSection div:nth-child(1){
+		width: 100%;
+		background-color: #a0c3ff;
+		padding: 70px 60px 0px 60px;
+		color: black;
+		text-align: center;
+	}
+	#smallDescSection div:nth-child(1) h1{
+		font-weight: lighter;
+		font-size: 2.0em;
+		line-height: 1.3em;
+	}
+	#smallDescSection div:nth-child(1) p{
+		margin: 20px 0px 60px 0px;
+		font-size: 1em;
+		line-height: 1.6em;
+	}
+	#smallDescSection div:nth-child(1) p a{
+		color: #0082e6;
+	}
+	/*0000*/
+	#smallDescSection div:nth-child(2){
+		width: 100%;
+		background-color: #c3d9ff;;
+		padding: 70px 60px 70px 60px;
+		color: black;
+		text-align: center;
+	}
+	#smallDescSection div:nth-child(2) h2{
+		font-weight: lighter;
+		font-size: 1.0em;
+		color: #616161;
+	}
+	#smallDescSection div:nth-child(2) h1{
+		font-weight: lighter;
+		font-size: 2.0em;
+		line-height: 1.3em;
+		margin-top: 10px;
+	}
+	#smallDescSection div:nth-child(2) p{
+		margin: 20px 0px 25px 0px;
+		font-size: 1em;
+		line-height: 1.6em;
 	}
 }
