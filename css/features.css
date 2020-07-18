@@ -1,6 +1,12 @@
 section#body{
 	padding-top: 90px;
+}
+#wideScreen{
+	display: block;
 	text-align: center;
+}
+#smallScreen{
+	display: none;
 }
 #leftCol{
 	float: left;
@@ -125,5 +131,86 @@ section#body{
 	/*the body*/
 	section#body{
 		padding-top: 80px;
+	}
+	#wideScreen{
+		display: none;
+	}
+	#smallScreen{
+		display: block;
+		text-align: center;
+	}
+	#smallScreen div{
+		padding: 70px 60px 50px 60px;
+		color: black;
+	}
+	#feature1{
+		background-color: #faf7eb;
+	}
+	#feature1 h1{
+		font-weight: lighter;
+		font-size: 2.0em;
+		line-height: 1.3em;
+	}
+	#feature1 p{
+		margin: 20px 0px 60px 0px;
+		font-size: 1em;
+		line-height: 1.6em;
+	}
+	#feature2{
+		background-color: #d0e9ea;
+	}
+	#feature2 h1{
+		font-weight: lighter;
+		font-size: 2.0em;
+		line-height: 1.3em;
+	}
+	#feature2 p{
+		margin: 20px 0px 60px 0px;
+		font-size: 1em;
+		line-height: 1.6em;
+	}
+	#feature3{
+		background-color: #f4f9fc;
+	}
+	#feature3 h1{
+		font-weight: lighter;
+		font-size: 2.0em;
+		line-height: 1.3em;
+	}
+	#feature3 p{
+		margin: 20px 0px 60px 0px;
+		font-size: 1em;
+		line-height: 1.6em;
+	}
+	#feature4{
+		background-color: #edf8f5;
+	}
+	#feature4 h2{
+		font-weight: lighter;
+		font-size: 1.0em;
+		color: #616161;
+	}
+	#feature4 h1{
+		font-weight: lighter;
+		font-size: 2.0em;
+		line-height: 1.3em;
+	}
+	#feature4 p{
+		margin: 20px 0px 0px 0px;
+		font-size: 1em;
+		line-height: 1.6em;
+	}
+	#feature5{
+		background-color: #faf7eb;
+	}
+	#feature5 h1{
+		font-weight: lighter;
+		font-size: 2.0em;
+		line-height: 1.3em;
+	}
+	#feature5 p{
+		margin: 20px 0px 0px 0px;
+		font-size: 1em;
+		line-height: 1.6em;
 	}
 }
