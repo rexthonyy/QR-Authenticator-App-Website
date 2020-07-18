@@ -124,7 +124,7 @@ section#body{
 }
 
 @media (max-width: 1000px){
-	section{
+	section#body{
 		padding-top: 145px;
 	}
 	#top{
@@ -168,7 +168,7 @@ section#body{
 }
 @media (max-width: 758px){
 	/*the body*/
-	section{
+	section#body{
 		padding-top: 80px;
 	}
 	#wideIntroSection{

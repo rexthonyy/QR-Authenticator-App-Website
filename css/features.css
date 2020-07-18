@@ -1,0 +1,129 @@
+section#body{
+	padding-top: 90px;
+	text-align: center;
+}
+#leftCol{
+	float: left;
+	width: 50%;
+	/*border: 1px solid black;*/
+}
+#leftCol div{
+	padding: 70px 67px 0px 60px;
+	color: black;
+}
+#rightCol{
+	float: left;
+	width: 50%;
+	/*border: 1px solid red;*/
+}
+#rightCol div{
+	padding: 70px 60px 0px 67px;
+	color: black;
+}
+#feature11{
+	background-color: #faf7eb;
+	border-right: 7px solid white;
+	border-bottom: 7px solid white;
+}
+#feature11 h1{
+	font-weight: lighter;
+	font-size: 2.0em;
+	line-height: 1.3em;
+}
+#feature11 p{
+	margin: 20px 0px 60px 0px;
+	font-size: 1em;
+	line-height: 1.6em;
+}
+#leftCol div:nth-child(1){/*Provide space below #feature11*/
+	padding-bottom: 100px;
+}
+#feature21{
+	background-color: #d0e9ea;
+	border-left: 7px solid white;
+	border-bottom: 7px solid white;
+}
+#feature21 h1{
+	font-weight: lighter;
+	font-size: 2.0em;
+	line-height: 1.3em;
+}
+#feature21 p{
+	margin: 20px 0px 60px 0px;
+	font-size: 1em;
+	line-height: 1.6em;
+}
+#rightCol div:nth-child(1){/*Provide space below #feature21*/
+	padding-bottom: 100px;
+}
+#feature12{
+	background-color: #d0e9ea;
+	border-top: 7px solid white;
+	border-right: 7px solid white;
+}
+#feature12 h1{
+	font-weight: lighter;
+	font-size: 2.0em;
+	line-height: 1.3em;
+}
+#feature12 p{
+	margin: 20px 0px 60px 0px;
+	font-size: 1em;
+	line-height: 1.6em;
+}
+#leftCol div:nth-child(2){/*Provide space below #feature12*/
+	padding-bottom: 100px;
+}
+#feature22{
+	background-color: #edf8f5;
+	border-top: 7px solid white;
+	border-left: 7px solid white;
+	border-bottom: 7px solid white;
+}
+#feature22 h2{
+	font-weight: lighter;
+	font-size: 1.0em;
+	color: #616161;
+}
+#feature22 h1{
+	font-weight: lighter;
+	font-size: 2.0em;
+	line-height: 1.3em;
+}
+#feature22 p{
+	margin: 20px 0px 0px 0px;
+	font-size: 1em;
+	line-height: 1.6em;
+}
+#rightCol div:nth-child(2){/*Provide space below #feature22*/
+	padding-bottom: 25px;
+}
+#feature13{
+	background-color: #faf7eb;
+	border-top: 7px solid white;
+	border-left: 7px solid white;
+}
+#feature13 h1{
+	font-weight: lighter;
+	font-size: 2.0em;
+	line-height: 1.3em;
+}
+#feature13 p{
+	margin: 20px 0px 0px 0px;
+	font-size: 1em;
+	line-height: 1.6em;
+}
+#rightCol div:nth-child(3){/*Provide space below #feature13*/
+	padding-bottom: 50px;
+}
+@media (max-width: 1000px){
+	section#body{
+		padding-top: 80px;
+	}
+}
+@media (max-width: 758px){
+	/*the body*/
+	section#body{
+		padding-top: 80px;
+	}
+}
