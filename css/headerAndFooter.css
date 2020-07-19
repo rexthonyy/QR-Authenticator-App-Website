@@ -180,6 +180,9 @@ footer#base{
 	#check:checked ~ ul{
 		left: 0;
 	}
+	footer section{
+		padding: 20px 23px 50px 23px;
+	}
 	footer section section{
 		float: left;
 		/*margin-right: 100px;*/

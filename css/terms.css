@@ -69,7 +69,7 @@ section#body{
 	}
 	#termsHeader{
 		height: 180px;
-		padding: 60px 60px;
+		padding: 60px 30px;
 	}
 	#termsHeader label{
 		font-size: 1.8em;
@@ -79,7 +79,7 @@ section#body{
 	#termsBody{
 		width: 100%;
 		background-color: white;
-		padding: 30px 60px;
+		padding: 20px 30px 60px 30px;
 		margin: 0 auto;
 	}
 	#termsBody h1{
